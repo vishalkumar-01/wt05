@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sty.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+  </head>
+<body>
+    <div id="f1" >
+        <h6 id="UI" style="padding-bottom: 40PX; color: azure;">AIRLINE BOOKING FORM</h6>
+        <div id="f2">
+            <h4 style="padding: 10px 0px 0px 10px; font-family: 'Franklin Gothic Medium';text-size-adjust: 0.58; letter-spacing: 2px; color: azure;padding-bottom: 10px; font-weight: 800;">BOOKING DETAILS</h4>
+            <hr style="width: 200px ;  margin-left: 10px; margin-top: -25px; color: aqua;">
+          
+          <form name="form1" action="http://localhost:3000" method="POST"> <div class="out">
+            <div class="out" style="margin-top: 10px;">
+              <div class="out">
+                <select  id="input-group" style="background: transparent; background-color: transparent; color: aliceblue;">
+                  <option style="background: transparent; background-color: transparent; "value="">Departure Airport</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Chennai</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Calcutta</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Kochi</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Delhi</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Mumbai</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Port Blair</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Saudi</option>
+                  <option style="background: transparent; background-color: transparent; "value="">US</option>
+                  <option style="background: transparent; background-color: transparent; "value="">Paris</option>
+              </select>
+              <select  id="input-group" style="background: transparent; color: aliceblue;">
+                <option value="">Arrival Airport</option>
+                <option value="">Chennai</option>
+                <option value="">Calcutta</option>
+                <option value="">Kochi</option>
+                <option value="">Delhi</option>
+                <option value="">Mumbai</option>
+                <option value="">Port Blair</option>
+                <option value="">Saudi</option>
+                <option value="">US</option>
+                <option value="">Paris</option>
+            </select>
+            </div>
+            </div>
+            </div>
+            <div class="out" style="margin-top: 10px;">
+              <div class="out">
+                <label id="o" style="margin-left: 25px;">Departure date:</label>
+                <input type="date" class="a" placeholder="return date" style="width: 350px;">
+                <label id="o" style="margin-left: 20px;">Departure time:</label>
+                <input type="time" class="a" placeholder="return date" style="width: 350px;">
+            </div>
+            </div>
+            <div class="out" style="margin-top: 10px;">
+              <div class="out">
+                <label id="o" style="margin-left: 25px;">No. Of Seats:</label>
+                <input type="number" class="a" style="width: 350px;">
+                <select  id="input-group" style="background: transparent; color: aliceblue;">
+                  <option value="">Preffered Seating</option>
+                  <option value="">Economy Class</option>
+                  <option value="">Business Class</option>
+                  <option value="">First Class</option>
+              </select>
+            </div>
+            </div>
+            
+
+            <div class="out" style="margin-top: 10px;">
+              <div class="out">
+                <label id="o" style="margin-left: 70px;"> Adult :</label>
+                <input type="number" class="a" style="width: 120px;">
+                <label id="o" style="margin-left: 50px;">Children(2-11years) :</label>
+                <input type="number" class="a" style="width: 120px;">
+                <label id="o" style="margin-left: 50px;"> Infant(under 2years):</label>
+                <input type="number" class="a"  style="width: 100px;">
+               
+            </div>
+            </div>
+            <br>
+            <div class="out" style="margin-top: 10px; padding-left: 15px;">
+              <label><h6 style="margin-top: 5px; color: antiquewhite;">SELECT YOUR FARE</h6></label>
+               <DIV class="out" style="color: antiquewhite;">
+                <input type="radio" id="oneway" name="fare" value="Oneway">
+                <label for="One-way">One-way</label><br>
+                <input type="radio" id="roundtrip" name="fare" value="Roundtrip">
+                <label for="Round-trip">Round-trip</label><br>
+               </DIV>
+            </div>
+            <div class="out">
+                <label id="o">Return date:</label>
+                <input type="date" class="a" placeholder="return date" style="width: 400px;">
+                <label id="o">Return time:</label>
+                <input type="time" class="a" placeholder="return date" style="width: 300px;">
+            </div>
+            <div class="out">
+                <label id="o" style="margin-top: 20px;">Any message:</label>
+                <textarea name="" class="a" rows="3" style="width: 600px;"></textarea>
+            </div>
+             <h6 style="color: antiquewhite; margin-top: 10PX ;margin-left: 10px; font-weight: 800;">PERSONAL INFO</h6>
+            <div class="out">
+                <label  id="o">Fullname:</label>
+                <input type="text" class="a" name="fname">
+                <label  id="o">Phonenumber:</label>
+                <input type="number" class="a" name="phn" style="width: 300px;">
+            </div>
+            <div class="out" style="margin-top: 15px;">
+                <label id="o">Email:</label>
+                <input type="email" class="a"name="email">
+            </div>
+            <div class="out" style="margin-top: 18px;">
+            <input type="submit" value="submit" id="up" onclick="fun()"> 
+            <input type="reset" value="clear" id="up" style="background-color:blue ;">
+            </div>
+
+          </form> 
+        </div>
+
+    </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+<script>
+
+function fun(){
+    var fname=document.form1.fname.value;
+    if(fname=""){
+        alert("Name must be filled!!!");
+        return false;
+    }
+    if(phn.length!=10){
+      alert("Phone Number must be of length 10");
+      return false;
+    }
+    alert("Registration Successfull!!!!!!!!!!");}
+
+    function calculatePrice() {
+  const distance = document.getElementById("distance").value;
+  const cabin = document.getElementById("cabin").value;
+  let pricePerMile = 0;
+
+  // Distance-based pricing
+  if (distance <= 500) {
+    pricePerMile = 0.2;
+  } else if (distance > 500 && distance <= 1000) {
+    pricePerMile = 0.15;
+  } else {
+    pricePerMile = 0.1;
+  }
+
+  // Cabin class-based pricing
+  if (cabin === "business") {
+    pricePerMile += 0.1;
+  } else if (cabin === "first") {
+    pricePerMile += 0.2;
+  }
+
+  const totalPrice = distance * pricePerMile;
+  document.getElementById("total").innerHTML = "$" + totalPrice.toFixed(2);
+}
+</script>
+</html>

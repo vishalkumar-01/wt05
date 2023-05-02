@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#f1
+{
+    min-width: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%),url("./bn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#f2{
+
+    min-height: 80vh;
+    min-width: 110vh;
+    background-color: rgba(35, 33, 33, 0.618);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#UI{
+    letter-spacing: 4px;
+    font-family: Tahoma;
+}
+#select{
+ padding-left: 10px;
+ width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.a{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background: transparent;
+    outline: none;
+    border-bottom: 10cap;
+    border-bottom-color: aqua;
+    width: 490px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#o{
+    margin-left: 15px;
+    color: aliceblue;
+}
+#gg{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background: transparent;
+    color: aliceblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 490px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+#up{
+    margin-left: 15px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.out{
+    display: flex;
+    gap: 10px;
+    text-size-adjust: 0.58px;
+    border-bottom-color: aqua;
+}
+
+@media screen and (max-width: 1200px) {
+    .f1 {
+       width: 70%;
+     }
+   }
+   
+   /* On screens that are 950px or less, set the width to 75% */
+   @media screen and (max-width: 950px) {
+    .f1 {
+       width: 75%;
+     }
+   }
+   
+   /* On screens that are 600px or less, set the width to 90% */
+   @media screen and (max-width: 600px) {
+    .f1 {
+       width: 90%;
+     }
+   }
+   #input-group{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 10cap;
+    border-bottom-color: aqua;
+    margin-left: 30px;
+    width: 500px;
+   }
